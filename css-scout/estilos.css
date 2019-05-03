@@ -1,0 +1,118 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #622599
+}
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bd8ce9;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+ h2{
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: normal; /*tipo de fuente  */
+    /*font-style: italic;*/
+    letter-spacing: -0.5px;
+     margin: 0 0 1.5rem;
+     margin-top: 0px;
+     margin-right: 0px;
+     margin-bottom: 1.5rem;
+     margin-left: 0px;
+     padding: 10px;
+ }
+p{
+    text-align: justify;
+    line-height: 26px;
+    padding: 5%
+}
+
+.cabecera{
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.w-btn-wrapper.align_left {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+.bienvenido-detalle-botones{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333333!important;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.3em;
+    padding: 0.8em 1.8em;
+    background-color: #e8e8e8;
+    border-color: transparent;
+}
+
+#scoutDelPeru {
+    background-color: SlateBlue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+  #imagenCentro{
+    margin:10px auto;
+    display:block;
+
+    position: relative;
+    
+    max-width: none;
+    height: auto;
+    width: auto;
+  }
+
+ .bienvenido{
+    margin:0px auto;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .bienvenido-Wrapper-left{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+ }
+
+ .bienvenido-imageContainer{
+    width: 300px;
+ }
+ footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #622599;    
+    font-size: 20px ;
+  }
